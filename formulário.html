@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+
+    <header>
+        <h1>Exemplo de Formulário de html</h1>
+    </header>
+
+<main>
+
+<form action="#" style="margin: 5%; color:darkred; background-color: blanchedalmond; font-family: Georgia, 'Times New Roman', Times, serif;">
+<!---Fieldset é para delimitar uma área-->
+
+<fieldset style="margin: 3%; ">
+<legend>
+    Dados Pessoais:
+</legend>
+
+<label for="cNome">Nome Completo:</label>
+<input type="text" name="" id="cNome" size="40" required maxlength="50">
+
+<br><br>
+
+<label for="">Você Mora:</label> <br>
+
+<input type="radio" name="tipo" id="cid" value="C">
+<label for="cid"> Cidade </label> <br>
+
+<input type="radio" name="tipo" id="inter" value="I">
+<label for="inter"> Interior </label> <br>
+
+</fieldset>
+
+<br><br>
+
+<fieldset>
+<legend>
+    Informações Extras
+</legend>
+
+<p>Qual meio de transporte você usa?</p>
+
+<input type="checkbox" name="transp1" id="transporte1" value="bike">
+<label for="transporte1"> Bicicleta </label>
+
+<input type="checkbox" name="transp2" id="transporte2" value="car">
+<label for="transporte2"> Carro </label>
+
+<input type="checkbox" name="transp3" id="transporte3" value="bus">
+<label for="transporte3"> Ônibus </label>
+
+</fieldset>
+
+<br><br>
+
+<FIeldset>
+    <legend>
+        Informações Extras
+    </legend>
+
+<label for="time">Selecione o seu time:</label>
+
+<select name="time" id="time">
+<option value="cruzeiro">Cruzeiro</option>
+<option value="corinthians">Corinthians</option>
+<option value="saopaulo">São Paulo</option>
+<option value="santos">Santos</option>
+<option value="caxiasdosul">Caxias do Sul</option>
+<option value="internacional">Internacional</option>
+</select>
+
+<p>Quantidade de Títulos</p>
+
+0 <input type="range" name="valor1" id="valor1"> 100
+
+<br><br>
+
+<p>Deixe a sua Opinião:</p>
+
+<textarea name="mensagem" id="mensagem" cols="60" rows="8" placeholder="Seu texto aqui"></textarea>
+
+</FIeldset>
+<br>
+<input type="submit" value="Enviar">
+
+</form>
+
+</main>
+
+<footer>
+    <p>Desenvolvido por Nathália D. &reg;</p>
+</footer>
+
+</body>
+</html>
